@@ -1,0 +1,84 @@
+
+.topstatement {
+    background-color: orange;
+    text-align: center;
+}
+
+.first {
+    font-family: "Sofia", sans-serif;
+    color: rgb(69, 138, 72);
+}
+
+header {
+    background-color: rgb(36, 51, 56);
+}
+
+ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration-line: none;
+}
+
+li a.second:hover {
+    background-color: rgb(6, 122, 52);
+}
+
+li a.third:hover {
+    background-color: rgb(6, 122, 52);
+}
+
+.main {
+    background-image: url('/Imgs/shopping.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 550px;
+}
+
+.main > h3 {
+    display: block;
+    font-size: 3rem;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    color: rgb(167, 21, 21);
+}
+
+.main > a {
+    float: right;
+    margin-right: 180px;
+    border: 2px solid red;
+    padding: 20px;
+    text-decoration-line: none;
+    color: black;
+    font-size: 2rem;
+}
+
+.main > a:hover {
+    background-color: crimson;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.contacts {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.botStatements > h4 {
+    text-align: center;
+}
+

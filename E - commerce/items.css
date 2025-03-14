@@ -1,0 +1,63 @@
+
+
+body {
+    background-color: rgb(36, 51, 56);
+    background-image: linear-gradient(to right, rgb(36, 51, 56), rgb(16, 9, 61));
+}
+
+.first {
+    font-family: "Sofia", sans-serif;
+}
+
+.headnav {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.headnav > li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration-line: none;
+}
+
+li a.second:hover {
+    background-color: rgb(6, 122, 52);
+    color: white;
+}
+
+li a.third:hover {
+    background-color: rgb(6, 122, 52);
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.F1 {
+    color: rgb(28, 202, 22);
+    text-align: center;
+}
+
+.Footy, .Magari, .Manguo {
+    width: 80%;
+    aspect-ratio: 4.4/1;
+    margin: auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-snap-type: x mandatory;
+}
+
+.item1, .item2, .item3, .item4, .item5, .item6, .item7, .item8, .item9, .item10 {
+    height: 300px;
+    display: inline-block;
+    scroll-snap-align: none start;
+    scroll-margin-inline: 0 20px;
+    direction: rtl;
+}
+

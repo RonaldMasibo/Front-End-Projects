@@ -1,0 +1,80 @@
+
+
+.first {
+    font-family: "Sofia", sans-serif;
+}
+
+body {
+    background-color: rgb(36, 51, 56);
+    background-image: linear-gradient(to right, rgb(36, 51, 56), rgb(16, 9, 61));
+}
+
+ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration-line: none;
+}
+
+.second {
+    color: rgb(69, 138, 72);
+}
+
+li a.second:hover {
+    background-color: rgb(6, 122, 52);
+    color: white;
+}
+
+li a.third:hover {
+    background-color: rgb(6, 122, 52);
+}
+
+form {
+    margin: auto;
+    width: 300px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+form > label {
+    position: relative;
+    left: 70px;
+    color: white;
+}
+
+input {
+    width: 95%;
+    border-radius: 5px;
+}
+
+input:focus {
+    background-color: lightblue;
+}
+
+input[type = submit] {
+    margin: auto;
+    width: 200px;
+    background-color: seagreen;
+    position: relative;
+    left: 50px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+input[type = submit]:hover {
+    background-color: green;
+    color: white;
+}
+
