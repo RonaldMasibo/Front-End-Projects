@@ -1,0 +1,103 @@
+
+body {
+    background-color: rgb(31, 27, 43);
+    background-image: linear-gradient(to right, rgb(34, 34, 56), rgb(4, 1, 17));
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+
+fieldset {
+    border-radius: 10px;
+}
+
+legend {
+    text-align: center;
+    color: orangered;
+}
+
+.topFood1 > img {
+    border-top-style: none;
+    border-left-style: none;
+    border-right: 15px solid orangered;
+    border-radius: 0 60% 60% 40%;
+    border-bottom: 15px solid orangered;
+    margin: 0;
+    outline: 5px solid orangered;
+}
+
+.Food {
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 10px;
+}
+
+.Food:hover {
+    box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.price {
+    float: left;
+    padding-left: 30px;
+}
+
+.pic {
+    float: right;
+}
+
+.FoodSold2 > fieldset > div {
+    height: 565px;
+    overflow: auto;
+    padding: 2px;
+}
+
+div > h3 {
+    text-align: center;
+    color: orangered;
+}
+
+.midtop {
+    text-align: center;
+}
+
+.midtop h5 {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    color: orangered;
+}
+
+.midtop h1{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 40px;
+    text-decoration: overline underline orangered solid 3px;
+}
+
+.midtop h2 {
+    margin: 0;
+    padding: 0;
+    color: chartreuse;
+}
+
+.insideFood3 {
+    height: 405px;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.topFood2 > img {
+    float: right;
+    border-top-style: none;
+    border-left-style: none;
+    border-right: 15px solid orangered;
+    border-radius: 60% 0 40% 60%;
+    border-bottom: 15px solid orangered;
+    margin: 0;
+    outline: 5px solid orangered;
+}
