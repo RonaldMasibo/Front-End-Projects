@@ -1,0 +1,129 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+body {
+    background-color: darkblue;
+    background-image: linear-gradient(to right, rgb(1, 1, 27), rgb(2, 2, 116));
+    padding: 50px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 310px 100px;
+    padding-top: 60px;
+    padding-left: 100px;
+    padding-bottom: 40px;
+    margin: auto;
+    width: 500px;
+    box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.container div{
+    place-content: center;
+}
+
+h3, h5, h6{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h5, h6{
+    margin-top: 5px;
+}
+
+h3{
+    color: white;
+    font-size: 30px;
+}
+
+h5{
+    text-align: center;
+    color: rgb(59, 233, 59);
+    font-size: 20px;
+}
+
+h6{
+    padding-top: 5px;
+    color: white;
+    font-size: 13px;
+    text-decoration: underline rgb(59, 233, 59) solid 1px;
+}
+
+.myImage {
+    clip-path: circle(47%);
+    /* border-radius: 100%; */
+    margin: auto;
+    width: 300px;
+    height: 300px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 10px;
+}
+
+li a{
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+    padding: 10px 0px;
+    justify-self: center;
+    border: 3px solid lightgreen;
+    border-radius: 10px;
+    text-align: center;
+}
+
+li a:hover {
+    background-color: lightgreen;
+    box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+@media screen and (max-width: 450px) {
+    body{
+        padding: 50px 15px;
+        margin: 0;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 350px;
+        padding: 40px 10px;
+    }
+
+    h3, h5, h6{
+        text-align: center;
+    }
+
+    h6{
+        padding-bottom: 5px;
+    }
+
+    .myImage{
+        width: 290px;
+        height: 270px;
+    }
+
+    .rightlinks{
+        display: flex;
+        flex-direction: row;
+    }
+
+    ul{
+        overflow: hidden;
+    }
+
+    li{
+        float: left;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    li a{
+        display: block;
+        border: 2px solid lightgreen;
+    }
+}
