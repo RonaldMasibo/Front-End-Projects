@@ -1,0 +1,135 @@
+
+
+body{
+    background-color: rgb(74, 99, 107);
+    color: white;
+}
+
+/*
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.leftside{
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    width: 15%;
+}
+
+.leftBottomlinks{
+    border-top: 1px solid rgb(54, 54, 54);
+    position: absolute;
+    bottom: 10px;
+}
+
+
+.rightcontent{
+    order: 2;
+    width: 85%;
+}
+
+.homeSection{
+    flex: 25%;
+    max-width: 25%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+*/
+
+.container{
+    width: 100%;
+}
+
+.leftside{
+    position: fixed;
+    left: 0;
+    width: 15%;
+}
+
+.intro{
+    margin: 10px 5px;
+    text-align: center;
+    border-top: 1px solid rgb(54, 54, 54);
+    border-bottom: 1px solid rgb(54, 54, 54);
+}
+
+.toplinks{
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 0;
+    width: 100%;
+}
+
+.toplinks li a{
+    display: block;
+    color: white;
+    margin: 20px 3px;
+    padding: 5px 0;
+    text-align: center;
+    text-decoration-line: none;
+}
+
+.toplinks li a:hover{
+    background-color: lightgreen;
+    color: black;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.toplinks li a:focus{
+    background-color: lightblue;
+    border-radius: 3px;
+    color: black;
+}
+
+.leftBottomlinks{
+    border-top: 1px solid rgb(54, 54, 54);
+    position: fixed;
+    left: 5px;
+    bottom: 10px;
+}
+
+.bottomlinks{
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.bottomlinks li a{
+    float: left;
+    display: block;
+    margin: 15px 15px;
+    padding: 5px 5px;
+}
+
+.bottomlinks li a:hover{
+    background-color: lightgreen;
+    color: black;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.rightcontent{
+    position: relative;
+    left: 15%;
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px; /* Spacing between images */
+    padding-left: 0;
+}
+
+.homeSection img{
+    width: calc(33% - 10px); /* 3 images per row */
+    height: 400px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
