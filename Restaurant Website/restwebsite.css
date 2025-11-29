@@ -5,41 +5,6 @@ body{
     color: white;
 }
 
-/*
-.container{
-    display: flex;
-    flex-direction: row;
-}
-
-.leftside{
-    display: flex;
-    flex-direction: column;
-    order: 1;
-    width: 15%;
-}
-
-.leftBottomlinks{
-    border-top: 1px solid rgb(54, 54, 54);
-    position: absolute;
-    bottom: 10px;
-}
-
-
-.rightcontent{
-    order: 2;
-    width: 85%;
-}
-
-.homeSection{
-    flex: 25%;
-    max-width: 25%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 0 4px;
-}
-*/
-
 .container{
     width: 100%;
 }
@@ -80,11 +45,11 @@ body{
     box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
-.toplinks li a:focus{
+/*.toplinks li a:focus{
     background-color: lightblue;
     border-radius: 3px;
     color: black;
-}
+} */
 
 .leftBottomlinks{
     border-top: 1px solid rgb(54, 54, 54);
@@ -105,7 +70,7 @@ body{
 .bottomlinks li a{
     float: left;
     display: block;
-    margin: 15px 15px;
+    margin: 15px 12px;
     padding: 5px 5px;
 }
 
@@ -127,9 +92,31 @@ body{
 }
 
 .homeSection img{
-    width: calc(33% - 10px); /* 3 images per row */
-    height: 400px;
+    width: calc(33% - 1px); /* 3 images per row */
+    height: 350px;
     border-radius: 5px;
     object-fit: cover;
 }
 
+.homeSection p{
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(122, 218, 122);
+}
+
+.explain{
+    color: white;
+    /*text-decoration-line: underline;*/
+    margin-bottom: 0;
+}
+
+.intro2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: underline rgb(233, 42, 42) solid 2px;
+    margin-bottom: 0
+
+}
