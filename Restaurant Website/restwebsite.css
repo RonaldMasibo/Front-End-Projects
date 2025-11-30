@@ -45,12 +45,6 @@ body{
     box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
-/*.toplinks li a:focus{
-    background-color: lightblue;
-    border-radius: 3px;
-    color: black;
-} */
-
 .leftBottomlinks{
     border-top: 1px solid rgb(54, 54, 54);
     position: fixed;
@@ -157,3 +151,120 @@ body{
     padding-left: 20px;
 }
 
+@media screen and (max-width: 350px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container > .leftside{
+        position: static;
+        margin: auto;
+        width: 100%;
+    }
+
+    .intro{
+        margin: 0 0;
+    }
+
+    .toplinks{
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .toplinks li{
+        float: left;
+    }
+
+    .toplinks li a{
+        padding: 14px 16px;
+    }
+
+    .leftBottomlinks{
+        left: 0;
+    }
+
+    .bottomlinks{
+        flex-direction: column;
+    }
+
+    .bottomlinks li a{
+        margin: 15px 12px 15px 5px;
+        padding: 5px 0;
+    }
+
+    .homeSection img{
+        width: calc(100%);
+        height: 300px;
+    }
+
+    .homeSection p{
+        margin-top: 10px;
+    }
+    
+    .foodSection{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 600px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container > .leftside{
+        position: static;
+        margin: auto;
+        width: 100%;
+    }
+
+    .intro{
+        margin: 0 0;
+    }
+
+    .toplinks{
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .toplinks li{
+        float: left;
+    }
+
+    .toplinks li a{
+        padding: 14px 16px;
+    }
+
+    .leftBottomlinks{
+        left: 0;
+    }
+
+    .bottomlinks{
+        flex-direction: column;
+    }
+
+    .bottomlinks li a{
+        margin: 15px 12px 15px 5px;
+        padding: 5px 19px;
+    }
+
+    .homeSection img{
+        width: calc(49% - 1px);
+        height: 300px;
+    }
+
+    .homeSection p{
+        margin-top: 10px;
+    }
+    
+    .foodSection{
+        flex-direction: column;
+    }
+}
